@@ -176,6 +176,10 @@ def get_who_data(d=None):
   }
 
 
+# Alias pour compatibilité
+get_who_datas = get_who_data
+
+
 
 if __name__ == "__main__":
   # Permet d'exécuter directement fetchdata.py pour tester la connexion et le fetch
